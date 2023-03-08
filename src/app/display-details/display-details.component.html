@@ -1,0 +1,5 @@
+<section class="container">
+    <button (click)="displayDetails()">Display Details</button>
+        <p class="details"  *ngIf="index%2 !== 0" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium unde beatae enim quaerat minus voluptate magnam, excepturi quis sint quia expedita dolore esse assumenda, impedit officiis aspernatur quod vitae consequatur.</p>
+    <p *ngFor="let item of clickArray">{{item}}</p>
+</section>
